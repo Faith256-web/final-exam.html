@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <style>
+       .mercy {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        .card {
+            background-color: #ea2525;
+            padding: 10px;
+            text-align: center;
+        }
+        @media (max-width: 400px) {
+            .mercy {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mercy">
+        <div class="card">CARD 1</div>
+        <div class="card">CARD 2</div>
+        <div class="card">CARD 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    text-decoration-color: orangered;
+    text-indent: 30px;
+    background-color: beige;
+}
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(255, 162, 0);
+    color: rgb(255, 30, 0);
+}
+nav a {
+    margin: 0 10px;
+    color: rgb(0, 94, 255);
+    text-decoration: none;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #00fd44;
+    padding: 10px;
+}

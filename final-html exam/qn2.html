@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <style>
+    .nav {
+            display: flex;
+            background-color: #4dbbff;
+            overflow: hidden;
+        }
+        .nav a {
+            padding: 60px 40px;
+            display: block;
+            color: rgb(0, 85, 255);
+            text-align: center;
+            text-decoration: solid;
+        }
+        @media (max-width: 600px) {
+            .nav {
+                flex-direction: column;
+            }
+        }    
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <a href="#HOME">HOME</a> 
+    <a href="#ABOUT">ABOUT</a>
+    <a href="# CONTACT">CONTACT</a>
+    <a href="# SERVICES">SERVICES</a>
+    </div>
+</body>
+</html>
